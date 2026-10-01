@@ -7,7 +7,7 @@ public class SalesService {
             throw new IllegalArgumentException(
                 "Product cannot be null");
         }
-        return product.getPrice() * product.getQuantity();
+        return -9999;
     }
 
     public double calculateDiscount(double subtotal) {
